@@ -12,12 +12,17 @@ $title2: #a8b9c0;
 
 //sizes
 $title: 35px;
-$pd: 10px;
+$pd: 70px;
 
 //styles
 //global start
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+hr{
+  border: none;
+  border-bottom: 1px solid $aqua;
 }
 
 //global end
@@ -90,7 +95,23 @@ header {
 
 //<!--good start-->
 .good {
+  padding: $pd 0;
 }
+.good_wrapper1{
+  h4{
+    margin-top: 40px;
+    font-size: $title;
+    color: #1a2940;
+  }
+  p{
+    font-size: 16px;
+    color: $title2;
+  }
+  hr{
+    width: 150px;
+  }
+}
+.good_wrapper2{}
 
 //<!--good end-->
 
