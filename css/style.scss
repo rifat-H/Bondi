@@ -55,6 +55,28 @@ header {
 
 //<!--banner start-->
 .banner {
+  padding: 100px 0;
+  background-color: $bgc1;
+}
+.banner_wrapper{
+  h1{
+    font-size: 51px;
+    color: #f0f8fb;
+    font-weight: 300;
+  }
+  p{
+    font-size: 16px;
+    color: $title2;
+  }
+  button{
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: $red;
+    color: $orange;
+    padding: 6px 40px;
+    cursor: pointer;
+  }
 }
 
 //<!--banner end-->
