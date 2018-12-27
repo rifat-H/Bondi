@@ -1,9 +1,22 @@
 //variables
+//===================
+//colors
 $bgc1: #19283f;
 $bgc2: #eff7fa;
-$bgc3: #eff7fa;
-$bgc4: #ffc400;
+$bgc3: #ffc400;
 
-$orange: #ffc501;
+$orange: $bgc3;
 $red: #ff3150;
 $aqua: #00c7c0;
+$title2: #a8b9c0;
+
+//sizes
+$title: 35px;
+
+//styles
+//global start
+body{
+  font-family: 'Roboto', sans-serif;
+}
+//global end
+
