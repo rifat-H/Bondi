@@ -30,8 +30,10 @@ header {
   nav {
     ul {
       margin-top: 15px;
+
       li {
         margin: 0 11px;
+
         a {
           color: $title2 !important;
         }
@@ -40,17 +42,18 @@ header {
   }
 }
 
-.aq{
+.aq {
   color: $aqua !important;
 }
 
-.cusbtn{
+.cusbtn {
   border: none;
   padding: 6px 38px 6px 38px !important;
   color: $orange !important;
   background-color: $red;
   border-radius: 15px;
 }
+
 //<!--header end-->
 
 //<!--banner start-->
@@ -58,17 +61,20 @@ header {
   padding: 100px 0;
   background-color: $bgc1;
 }
-.banner_wrapper{
-  h1{
+
+.banner_wrapper {
+  h1 {
     font-size: 51px;
     color: #f0f8fb;
     font-weight: 300;
   }
-  p{
+
+  p {
     font-size: 16px;
     color: $title2;
   }
-  button{
+
+  button {
     margin-top: 15px;
     border: none;
     border-radius: 20px;
