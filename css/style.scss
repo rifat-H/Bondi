@@ -25,8 +25,31 @@ body {
 //<!--header start-->
 header {
   background-color: $bgc1;
+  padding: 10px 0;
+
+  nav {
+    ul {
+      li {
+        margin: 0 11px;
+        a {
+          color: $title2 !important;
+        }
+      }
+    }
+  }
 }
 
+.aq{
+  color: $aqua !important;
+}
+
+.cusbtn{
+  border: none;
+  padding: 6px 38px 6px 38px !important;
+  color: $orange !important;
+  background-color: $red;
+  border-radius: 15px;
+}
 //<!--header end-->
 
 //<!--banner start-->
