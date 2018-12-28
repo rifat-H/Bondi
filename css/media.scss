@@ -3,6 +3,7 @@
   //sizes
   $title: 35px;
   $pd: 40px;
+  $pdb: (40-16) + px;
 
   //<!--header start-->
   header {
@@ -42,7 +43,6 @@
   }
 
   //<!--banner end-->
-
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -50,6 +50,7 @@
   //sizes
   $title: 35px;
   $pd: 50px;
+  $pdb: (50-16) + px;
 
   //<!--header start-->
   header {
@@ -90,6 +91,50 @@
 
   //<!--banner end-->
 
+  //<!--good start-->
+  .good {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+
+  // .good_wrapper1 {
+  //   h4 {
+  //     margin-top: 40px;
+  //     font-size: $title;
+  //   }
+
+  //   p {
+  //     font-size: 16px;
+  //   }
+
+  //   hr {
+  //     width: 150px;
+  //   }
+  // }
+
+  .good_wrapper2 {
+  }
+
+  .good_wrapper2-1 {
+    // margin-left: 40px;
+    // margin-top: -110px;
+
+    // img {
+    //   margin-right: 10px;
+    // }
+
+    // h5 {
+    //   margin-top: 40px;
+    //   font-size: 20px;
+    // }
+
+    p {
+      // margin-top: 25px;
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+  //<!--good end-->
 }
 
 // Medium devices (tablets, 768px and up)
@@ -97,7 +142,7 @@
   //sizes
   $title: 35px;
   $pd: 60px;
-
+  $pdb: (60-16) + px;
 
   //<!--header start-->
   header {
@@ -138,6 +183,50 @@
 
   //<!--banner end-->
 
+  //<!--good start-->
+  .good {
+    padding-top: $pd;
+    padding-bottom: $pdb;
+  }
+
+  // .good_wrapper1 {
+  //   h4 {
+  //     margin-top: 40px;
+  //     font-size: $title;
+  //   }
+
+  //   p {
+  //     font-size: 16px;
+  //   }
+
+  //   hr {
+  //     width: 150px;
+  //   }
+  // }
+
+  .good_wrapper2 {
+  }
+
+  .good_wrapper2-1 {
+    // margin-left: 40px;
+    // margin-top: -110px;
+
+    // img {
+    //   margin-right: 10px;
+    // }
+
+    // h5 {
+    // margin-top: 32px;
+    //   font-size: 20px;
+    // }
+
+    p {
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+  //<!--good end-->
 }
 
 // Large devices (desktops, 992px and up)
@@ -145,10 +234,9 @@
   //sizes
   $title: 35px;
   $pd: 70px;
-
+  $pdb: (70-16) + px;
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
 }
