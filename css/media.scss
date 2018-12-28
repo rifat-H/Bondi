@@ -1,7 +1,7 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   //sizes
-  $title: 35px;
+  $title: 30px;
   $pd: 40px;
   $pdb: (40-16) + px;
 
@@ -57,12 +57,56 @@
     }
   }
   //<!--good end-->
+
+  //<!--make start-->
+  .make {
+    padding: $pd 0;
+  }
+
+  .make_wrapper1 {
+    h4 {
+      margin-top: 40px;
+      font-size: $title;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      margin-top: 80px;
+
+      li {
+        margin: 0 3px;
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .make_wrapper2 {
+    padding: 80px 20px (80-16)+px 15px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .make_wrapper3 {
+
+    button {
+      font-size: 15px;
+    }
+  }
+
+  //<!--make end-->
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
   //sizes
-  $title: 35px;
+  $title: 32px;
   $pd: 50px;
   $pdb: (50-16) + px;
 
@@ -122,12 +166,56 @@
     }
   }
   //<!--good end-->
+
+  //<!--make start-->
+  .make {
+    padding: $pd 0;
+  }
+
+  .make_wrapper1 {
+    h4 {
+      margin-top: 40px;
+      font-size: $title;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      margin-top: 80px;
+
+      li {
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .make_wrapper2 {
+    padding: 80px 20px (80-16)+px 15px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .make_wrapper3 {
+
+    button {
+      font-size: 15px;
+    }
+  }
+
+  //<!--make end-->
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
   //sizes
-  $title: 35px;
+  $title: 33px;
   $pd: 60px;
   $pdb: (60-16) + px;
 
@@ -183,6 +271,50 @@
     }
   }
   //<!--good end-->
+
+  //<!--make start-->
+  .make {
+    padding: $pd 0;
+  }
+
+  .make_wrapper1 {
+    h4 {
+      margin-top: 40px;
+      font-size: $title;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      margin-top: 80px;
+
+      li {
+
+        a {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .make_wrapper2 {
+    padding: 80px 20px (80-16)+px 15px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .make_wrapper3 {
+
+    button {
+      font-size: 15px;
+    }
+  }
+
+  //<!--make end-->
 }
 
 // Large devices (desktops, 992px and up)
