@@ -78,6 +78,7 @@
 
       li {
         margin: 0 3px;
+
         a {
           font-size: 15px;
         }
@@ -101,6 +102,42 @@
   }
 
   //<!--make end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    p{
+      &:last-of-type{
+        text-align: left !important;
+      }
+    }
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    text-align: center;
+    margin-top: 0;
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -210,6 +247,43 @@
   }
 
   //<!--make end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    p{
+      &:last-of-type{
+        text-align: left !important;
+      }
+    }
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    text-align: center;
+    margin-top: 0;
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -315,6 +389,36 @@
   }
 
   //<!--make end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    margin-top: 0;
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
 }
 
 // Large devices (desktops, 992px and up)
