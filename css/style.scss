@@ -13,6 +13,7 @@ $title2: #a8b9c0;
 //sizes
 $title: 35px;
 $pd: 70px;
+$pdb: (70-16)+px;
 
 //styles
 //global start
@@ -94,7 +95,8 @@ header {
 
 //<!--good start-->
 .good {
-  padding: $pd 0;
+  padding-top: $pd;
+  padding-bottom: $pdb;
 }
 
 .good_wrapper1 {
