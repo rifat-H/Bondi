@@ -117,10 +117,12 @@ header {
   padding: 150px 0;
   background: url("../images/one.png") no-repeat center;
 }
+
 .two {
   padding: 150px 0;
   background: url("../images/two.png") no-repeat center;
 }
+
 .three {
   padding: 150px 0;
   background: url("../images/three.png") no-repeat center;
@@ -170,8 +172,10 @@ header {
 
   ul {
     margin-top: 80px;
+
     li {
       margin: 0 40px;
+
       a {
         font-size: 15px;
         color: $title2;
@@ -180,14 +184,16 @@ header {
   }
 }
 
-.make_wrapper2{
+.make_wrapper2 {
   padding: 80px 50px (80-16)+px 50px;
   background-color: #fff;
-  h5{
+
+  h5 {
 
     font-size: 20px;
   }
-  p{
+
+  p {
     font-size: 16px;
     color: #1a2940;
   }
@@ -195,7 +201,8 @@ header {
 
 .make_wrapper3 {
   margin-top: 80px;
-  button{
+
+  button {
     border: none;
     border-radius: 20px;
     background-color: $red;
@@ -213,7 +220,7 @@ header {
   padding: $pd 0;
 }
 
-.about_wrapper1{
+.about_wrapper1 {
   h4 {
     margin-top: 40px;
     font-size: $title;
@@ -223,11 +230,43 @@ header {
   p {
     font-size: 16px;
     color: $title2;
-    &:last-of-type{
+
+    &:last-of-type {
       font-weight: 300;
       margin-top: 20px;
     }
   }
+}
+
+.about_wrapper2 {
+  margin-top: 65px;
+
+  h4 {
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: $title;
+    color: #1a2940;
+  }
+
+  p {
+    color: $title2;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  button {
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: $red;
+    color: $orange;
+    padding: 6px 50px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+}
+
+.about_wrapper3 {
 }
 
 //<!--about end-->
