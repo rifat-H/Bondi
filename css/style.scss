@@ -217,7 +217,7 @@ header {
 
 //<!--about start-->
 .about {
-  padding: $pd 0;
+  padding-top: $pd;
 }
 
 .about_wrapper1 {
@@ -239,7 +239,7 @@ header {
 }
 
 .about_wrapper2 {
-  margin-top: 65px;
+  margin-top: 45px;
 
   h4 {
     margin-bottom: 20px;
@@ -266,16 +266,62 @@ header {
   }
 }
 
-//.about_wrapper3 {
-//}
-
 //<!--about end-->
 
 //<!--team start-->
 .team {
   padding: $pd 0;
+  background-color: $bgc2;
 }
 
+.team_wrapper1 {
+  h4 {
+    font-size: $title;
+    color: $orange;
+  }
+
+  p {
+    color: $title2;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 70px;
+  }
+}
+
+.team_wrapper2 {
+  text-align: center;
+  //background-color: white;
+  background-color: $bgc2;
+
+  h5 {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #00c6bf;
+    display: block;
+    padding: 15px 0;
+  }
+
+  p {
+    font-size: 15px;
+    color: $title2;
+    background-color: white;
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    height: 350px;
+  }
+
+}
+
+.py1{
+  padding: 30px 20px;
+}
+
+.py2{
+  padding: 19px 20px;
+}
 //<!--team end-->
 
 //<!--customar start-->
