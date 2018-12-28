@@ -210,42 +210,66 @@ header {
 
 //<!--about start-->
 .about {
+  padding: $pd 0;
+}
+
+.about_wrapper1{
+  h4 {
+    margin-top: 40px;
+    font-size: $title;
+    color: #1a2940;
+  }
+
+  p {
+    font-size: 16px;
+    color: $title2;
+    &:last-of-type{
+      font-weight: 300;
+      margin-top: 20px;
+    }
+  }
 }
 
 //<!--about end-->
 
 //<!--team start-->
 .team {
+  padding: $pd 0;
 }
 
 //<!--team end-->
 
 //<!--customar start-->
 .customer {
+  padding: $pd 0;
 }
 
 //<!--customar end-->
 
 //<!--project start-->
 .project {
+  padding: $pd 0;
 }
 
 //<!--project end-->
 
 //<!--blog start-->
 .blog {
+  padding: $pd 0;
 }
 
 //<!--blog end-->
 
 //<!--newsletter start-->
 .newletter {
+  padding: $pd 0;
 }
 
 //<!--newsletter end-->
 
 //<!--footer start-->
 footer {
+  padding: $pd 0;
 }
 
 //<!--footer end-->
