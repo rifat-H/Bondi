@@ -138,6 +138,86 @@
   }
 
   //<!--about end-->
+
+  //<!--about start-->
+  .about {
+    padding: $pd 0;
+  }
+
+  .about_wrapper1 {
+    p{
+      &:last-of-type{
+        text-align: left !important;
+      }
+    }
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .about_wrapper2 {
+    text-align: center;
+    margin-top: 0;
+    h4 {
+      font-size: $title;
+    }
+
+
+    button {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+  }
+
+  .about_wrapper3 {
+    margin-top: 60px;
+  }
+
+  //<!--about end-->
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+    margin-top: 25px;
+    h5 {
+      margin-bottom: 0;
+      font-size: 19px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      height: 250px;
+    }
+
+  }
+
+  .py1 {
+    padding: 40px 10px;
+  }
+
+  .py2 {
+    padding: 19px 10px;
+  }
+  //<!--team end-->
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -284,6 +364,50 @@
 
   //<!--about end-->
 
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+    margin-top: 25px;
+    h5 {
+      margin-bottom: 0;
+      font-size: 19px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      height: 250px;
+    }
+
+  }
+
+  .py1 {
+    padding: 40px 10px;
+  }
+
+  .py2 {
+    padding: 19px 10px;
+  }
+  //<!--team end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -419,6 +543,51 @@
   }
 
   //<!--about end-->
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 70px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 19px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      height: 250px;
+    }
+
+  }
+
+  .py1 {
+    padding: 40px 10px;
+  }
+
+  .py2 {
+    padding: 19px 10px;
+  }
+  //<!--team end-->
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -427,6 +596,51 @@
   $title: 35px;
   $pd: 70px;
   $pdb: (70-16) + px;
+
+  //<!--team start-->
+  .team {
+    padding: $pd 0;
+  }
+
+  .team_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 70px;
+    }
+  }
+
+  .team_wrapper2 {
+    text-align: center;
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 20px;
+      padding: 15px 0;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 0 !important;
+    }
+
+    img {
+      height: 300px;
+    }
+
+  }
+
+  .py1{
+    padding: 40px 20px;
+  }
+
+  .py2{
+    padding: 19px 20px;
+  }
+  //<!--team end-->
 }
 
 // Extra large devices (large desktops, 1200px and up)
