@@ -20,9 +20,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-hr{
-  border: none;
-  border-bottom: 1px solid $aqua;
+hr {
+  background-color: $aqua;
 }
 
 //global end
@@ -97,68 +96,81 @@ header {
 .good {
   padding: $pd 0;
 }
-.good_wrapper1{
-  h4{
+
+.good_wrapper1 {
+  h4 {
     margin-top: 40px;
     font-size: $title;
     color: #1a2940;
   }
-  p{
+
+  p {
     font-size: 16px;
     color: $title2;
   }
-  hr{
+
+  hr {
     width: 150px;
   }
 }
-.good_wrapper2{}
+
+.good_wrapper2 {}
+
+.one {
+  padding: 150px 0;
+  background: url("../images/one.png") no-repeat center;
+}
+
+.good_wrapper2-1 {
+  margin-left: 40px;
+  margin-top: -110px;
+
+  img {}
+
+  h5 {}
+
+  p {}
+}
+
 
 //<!--good end-->
 
 //<!--make start-->
-.make {
-}
+.make {}
 
 //<!--make end-->
 
 //<!--about start-->
-.about {
-}
+.about {}
 
 //<!--about end-->
 
 //<!--team start-->
-.team {
-}
+.team {}
 
 //<!--team end-->
 
 //<!--customar start-->
-.customer {
-}
+.customer {}
 
 //<!--customar end-->
 
 //<!--project start-->
-.project {
-}
+.project {}
 
 //<!--project end-->
 
 //<!--blog start-->
-.blog {
-}
+.blog {}
 
 //<!--blog end-->
 
 //<!--newsletter start-->
-.newletter {
-}
+.newletter {}
 
 //<!--newsletter end-->
 
 //<!--footer start-->
-footer {
-}
+footer {}
 
 //<!--footer end-->
