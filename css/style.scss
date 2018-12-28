@@ -120,16 +120,36 @@ header {
   padding: 150px 0;
   background: url("../images/one.png") no-repeat center;
 }
+.two{
+  padding: 150px 0;
+  background: url("../images/two.png") no-repeat center;
+}
+.three{
+  padding: 150px 0;
+  background: url("../images/three.png") no-repeat center;
+}
 
 .good_wrapper2-1 {
   margin-left: 40px;
   margin-top: -110px;
 
-  img {}
+  img {
+    margin-right: 10px;
+  }
 
-  h5 {}
+  h5 {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #ffc501;
+  }
 
-  p {}
+  p {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 30px;
+    color: $title2;
+    font-family: "Roboto";
+  }
 }
 
 
