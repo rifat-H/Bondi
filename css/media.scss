@@ -233,6 +233,22 @@
 
   //<!--customar end-->
 
+  //<!--project start-->
+  .project {
+    padding: $pd 0;
+  }
+
+  .project_wrapper1{
+    h4{
+      font-size: $title;
+    }
+    button{
+      padding: 6px 30px;
+    }
+  }
+
+  //<!--project end-->
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -436,6 +452,20 @@
 
   //<!--customar end-->
 
+  //<!--project start-->
+  .project {
+    padding: $pd 0;
+  }
+
+  .project_wrapper1{
+    h4{
+      font-size: $title;
+    }
+
+  }
+
+  //<!--project end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -615,6 +645,20 @@
     padding: 19px 10px;
   }
   //<!--team end-->
+
+  //<!--project start-->
+  .project {
+    padding: $pd 0;
+  }
+
+  .project_wrapper1{
+    h4{
+      font-size: $title;
+    }
+
+  }
+
+  //<!--project end-->
 
 }
 

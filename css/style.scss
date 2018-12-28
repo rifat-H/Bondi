@@ -329,17 +329,35 @@ header {
   padding: $pd 0;
 }
 
-.cus_wrapper1{
-  img{
-
-  }
-}
 
 //<!--customar end-->
 
 //<!--project start-->
 .project {
   padding: $pd 0;
+  background-color: $bgc1;
+}
+
+.project_wrapper1{
+  padding: 20px 0;
+  h4{
+    color: #ffffff;
+    font-size: $title;
+  }
+  p{
+    font-size: 15px;
+    color: $title2;
+  }
+  button{
+    margin-top: 25px;
+    border: none;
+    border-radius: 21px;
+    background-color: $red;
+    color: $orange;
+    padding: 6px 40px;
+    cursor: pointer;
+  }
+
 }
 
 //<!--project end-->
