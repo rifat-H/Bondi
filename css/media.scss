@@ -269,6 +269,23 @@
 
   //<!--blog end-->
 
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    text-align: center;
+    p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    button{
+      margin-top: 20px;
+    }
+    ::placeholder{
+      text-align: center;
+    }
+  }
+  //<!--newsletter end-->
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -506,6 +523,15 @@
 
   //<!--blog end-->
 
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    p {
+      font-size: 15px;
+    }
+  }
+  //<!--newsletter end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -721,6 +747,15 @@
 
   //<!--blog end-->
 
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    p {
+      font-size: 16px;
+    }
+  }
+  //<!--newsletter end-->
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -774,6 +809,16 @@
     padding: 19px 20px;
   }
   //<!--team end-->
+
+  //<!--newsletter start-->
+
+  .newsletter_wrapper {
+    p {
+      font-size: 16px;
+    }
+  }
+  //<!--newsletter end-->
+
 }
 
 // Extra large devices (large desktops, 1200px and up)

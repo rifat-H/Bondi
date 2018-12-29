@@ -315,13 +315,14 @@ header {
 
 }
 
-.py1{
+.py1 {
   padding: 30px 20px;
 }
 
-.py2{
+.py2 {
   padding: 19px 20px;
 }
+
 //<!--team end-->
 
 //<!--customar start-->
@@ -338,17 +339,20 @@ header {
   background-color: $bgc1;
 }
 
-.project_wrapper1{
+.project_wrapper1 {
   padding: 20px 0;
-  h4{
+
+  h4 {
     color: #ffffff;
     font-size: $title;
   }
-  p{
+
+  p {
     font-size: 15px;
     color: $title2;
   }
-  button{
+
+  button {
     margin-top: 25px;
     border: none;
     border-radius: 21px;
@@ -367,7 +371,7 @@ header {
   padding: $pd 0;
 }
 
-.blog_wrapper1{
+.blog_wrapper1 {
   h4 {
     margin-top: 40px;
     font-size: $title;
@@ -379,24 +383,30 @@ header {
     color: $title2;
   }
 }
-.blog_wrapper2{
+
+.blog_wrapper2 {
   margin-top: 35px;
-  img{}
-  p{
+
+  img {
+  }
+
+  p {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 14px;
     color: $title2;
   }
-  h6{
+
+  h6 {
     font-size: 20px;
     color: #1a2940;
   }
 }
 
-.blog_wrapper3{
+.blog_wrapper3 {
   margin-top: 30px;
-  button{
+
+  button {
     margin-top: 25px;
     border: none;
     border-radius: 21px;
@@ -411,7 +421,38 @@ header {
 
 //<!--newsletter start-->
 .newletter {
-  padding: $pd 0;
+  padding: 40px 0;
+  background-color: $bgc3;
+}
+
+.newsletter_wrapper {
+  p {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #1a2940;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid #eff7fa;
+    background: none;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+
+  button {
+    border: none;
+    border-radius: 20px;
+    background-color: #19283f;
+    color: #ffc501;
+    padding: 6px 38px;
+    cursor: pointer;
+  }
+
+  ::placeholder {
+    font-size: 15px;
+    color: #f0f8fb;
+  }
 }
 
 //<!--newsletter end-->
