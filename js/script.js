@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
     //navbar menu Hover color
@@ -25,9 +23,14 @@ $(document).ready(function () {
 
     $(".make_wrapper1 ul li").hover(function () {
         $(this).toggleClass('mhv');
-
         console.log(this);
     });
 
+    // make wrapper 2
+
+    $(".make_wrapper2").hover(function () {
+        $(this).toggleClass('mjh');
+        console.log(this);
+    });
 
 });

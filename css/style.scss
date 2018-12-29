@@ -18,15 +18,27 @@ $pdb: (70-16) + px;
 //styles
 //global start
 
-a,a:hover, a:focus {
+a, a:hover, a:focus {
   text-decoration: none;
 }
 
+.mjh {
+  background-color: #00c6bf !important;
+
+  h5 {
+    color: white;
+  }
+
+  p {
+    color: #1a2940 !important;
+  }
+}
 
 .mhv {
   background-color: $red !important;
   cursor: pointer;
-  a{
+
+  a {
     color: $orange !important;
   }
 }
