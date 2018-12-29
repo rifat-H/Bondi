@@ -17,6 +17,24 @@ $pdb: (70-16) + px;
 
 //styles
 //global start
+
+a,a:hover, a:focus {
+  text-decoration: none;
+}
+
+
+.mhv {
+  background-color: $red !important;
+  cursor: pointer;
+  a{
+    color: $orange !important;
+  }
+}
+
+.aq {
+  color: $aqua !important;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -24,6 +42,10 @@ body {
 hr {
   background-color: $aqua;
   width: 150px;
+}
+
+.jqb {
+  color: white !important;
 }
 
 //global end
@@ -39,6 +61,7 @@ header {
 
       li {
         margin: 0 11px;
+        color: $title2;
 
         a {
           color: $title2 !important;
@@ -48,9 +71,11 @@ header {
   }
 }
 
-.aq {
-  color: $aqua !important;
+
+.cusmt {
+  margin-top: 8px;
 }
+
 
 .cusbtn {
   border: none;
@@ -58,6 +83,16 @@ header {
   color: $orange !important;
   background-color: $red;
   border-radius: 15px;
+}
+
+.btn2 {
+  color: $title2;
+  margin-top: 3px;
+  background: none;
+
+  &:after {
+    content: none;
+  }
 }
 
 //<!--header end-->
@@ -175,6 +210,8 @@ header {
 
     li {
       margin: 0 40px;
+      padding: 10px 20px;
+      border-radius: 10px;
 
       a {
         font-size: 15px;

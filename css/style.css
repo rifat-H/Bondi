@@ -1,3 +1,19 @@
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+.mhv {
+  background-color: #ff3150 !important;
+  cursor: pointer;
+}
+.mhv a {
+  color: #ffc400 !important;
+}
+
+.aq {
+  color: #00c7c0 !important;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -5,6 +21,10 @@ body {
 hr {
   background-color: #00c7c0;
   width: 150px;
+}
+
+.jqb {
+  color: white !important;
 }
 
 header {
@@ -16,13 +36,14 @@ header nav ul {
 }
 header nav ul li {
   margin: 0 11px;
+  color: #a8b9c0;
 }
 header nav ul li a {
   color: #a8b9c0 !important;
 }
 
-.aq {
-  color: #00c7c0 !important;
+.cusmt {
+  margin-top: 8px;
 }
 
 .cusbtn {
@@ -31,6 +52,15 @@ header nav ul li a {
   color: #ffc400 !important;
   background-color: #ff3150;
   border-radius: 15px;
+}
+
+.btn2 {
+  color: #a8b9c0;
+  margin-top: 3px;
+  background: none;
+}
+.btn2:after {
+  content: none;
 }
 
 .banner {
@@ -126,6 +156,8 @@ header nav ul li a {
 }
 .make_wrapper1 ul li {
   margin: 0 40px;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 .make_wrapper1 ul li a {
   font-size: 15px;
