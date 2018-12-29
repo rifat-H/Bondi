@@ -185,11 +185,10 @@ header {
 }
 
 .make_wrapper2 {
-  padding: 80px 50px (80-16)+px 50px;
+  padding: 80px 50px (80-16) + px 50px;
   background-color: #fff;
 
   h5 {
-
     font-size: 20px;
   }
 
@@ -312,7 +311,6 @@ header {
   img {
     height: 350px;
   }
-
 }
 
 .py1 {
@@ -329,7 +327,6 @@ header {
 .customer {
   padding: $pd 0;
 }
-
 
 //<!--customar end-->
 
@@ -361,7 +358,6 @@ header {
     padding: 6px 40px;
     cursor: pointer;
   }
-
 }
 
 //<!--project end-->
@@ -460,6 +456,105 @@ header {
 //<!--footer start-->
 footer {
   padding: $pd 0;
+  background-color: $bgc1;
+}
+
+.footer_wrapper1 {
+  img {
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 30px;
+    color: $title2;
+    margin-bottom: 0;
+
+    span {
+      color: #ffc501;
+    }
+  }
+}
+
+.footer_wrapper2,
+.footer_wrapper3 {
+  ul {
+    padding-left: 0;
+
+    li {
+      margin-top: 15px;
+
+      &:first-of-type {
+        margin-top: 0;
+
+        a {
+          color: #f0f8fb;
+          font-size: 15px;
+        }
+      }
+
+      a {
+        font-size: 13px;
+        color: $title2;
+      }
+    }
+  }
+}
+
+.footer_wrapper3 {
+  margin-left: 0;
+}
+
+.footer_wrapper4 {
+  p {
+    font-size: 13px;
+    line-height: 30px;
+    color: $title2;
+
+    &:first-of-type {
+
+      font-size: 15px;
+      color: #f0f8fb;
+    }
+  }
+
+  button {
+    margin: 30px 0;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: $red;
+    padding: 6px 38px;
+    cursor: pointer;
+  }
+
+  ul {
+    li {
+      margin-right: 7px !important;
+      padding: 5px 15px;
+      border-radius: 50%;
+
+      i {
+        color: white;
+      }
+    }
+  }
+}
+
+.fb {
+  background-color: #347cd2;
+}
+
+.tw {
+  background-color: #1ec4ff;
+}
+
+.gp {
+  background-color: #ff4032;
+}
+
+.db {
+  background-color: #ff3298;
 }
 
 //<!--footer end-->
