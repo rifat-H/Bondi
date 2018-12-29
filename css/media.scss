@@ -249,6 +249,26 @@
 
   //<!--project end-->
 
+  //<!--blog start-->
+  .blog {
+    padding: $pd 0;
+  }
+
+
+  .blog_wrapper1{
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .blog_wrapper3{
+    button{
+      padding: 6px 25px;
+    }
+  }
+
+  //<!--blog end-->
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -466,6 +486,26 @@
 
   //<!--project end-->
 
+  //<!--blog start-->
+  .blog {
+    padding: $pd 0;
+  }
+
+
+  .blog_wrapper1{
+    h4 {
+      font-size: $title;
+    }
+  }
+
+  .blog_wrapper3{
+    button{
+      padding: 6px 30px;
+    }
+  }
+
+  //<!--blog end-->
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -659,6 +699,27 @@
   }
 
   //<!--project end-->
+
+  //<!--blog start-->
+  .blog {
+    padding: $pd 0;
+  }
+
+
+  .blog_wrapper1{
+    h4 {
+      font-size: $title;
+    }
+
+  }
+
+  .blog_wrapper3{
+    button{
+      padding: 6px 30px;
+    }
+  }
+
+  //<!--blog end-->
 
 }
 

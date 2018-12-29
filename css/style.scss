@@ -379,7 +379,33 @@ header {
     color: $title2;
   }
 }
-.blog_wrapper2{}
+.blog_wrapper2{
+  margin-top: 35px;
+  img{}
+  p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: $title2;
+  }
+  h6{
+    font-size: 20px;
+    color: #1a2940;
+  }
+}
+
+.blog_wrapper3{
+  margin-top: 30px;
+  button{
+    margin-top: 25px;
+    border: none;
+    border-radius: 21px;
+    background-color: $red;
+    color: $orange;
+    padding: 6px 40px;
+    cursor: pointer;
+  }
+}
 
 //<!--blog end-->
 
