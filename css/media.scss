@@ -28,7 +28,7 @@
 
   .banner_wrapper {
     h1 {
-      font-size: 36px;
+      font-size: 32px;
     }
 
     p {
@@ -50,6 +50,11 @@
     padding-bottom: $pdb;
   }
 
+  .good_wrapper1 {
+    h4 {
+      font-size: $title;
+    }
+  }
   .good_wrapper2-1 {
     p {
       font-size: 15px;
@@ -109,11 +114,12 @@
   }
 
   .about_wrapper1 {
-    p{
-      &:last-of-type{
+    p {
+      &:last-of-type {
         text-align: left !important;
       }
     }
+
     h4 {
       font-size: $title;
     }
@@ -122,6 +128,7 @@
   .about_wrapper2 {
     text-align: center;
     margin-top: 0;
+
     h4 {
       font-size: $title;
     }
@@ -145,11 +152,12 @@
   }
 
   .about_wrapper1 {
-    p{
-      &:last-of-type{
+    p {
+      &:last-of-type {
         text-align: left !important;
       }
     }
+
     h4 {
       font-size: $title;
     }
@@ -158,6 +166,7 @@
   .about_wrapper2 {
     text-align: center;
     margin-top: 0;
+
     h4 {
       font-size: $title;
     }
@@ -194,6 +203,7 @@
   .team_wrapper2 {
     text-align: center;
     margin-top: 25px;
+
     h5 {
       margin-bottom: 0;
       font-size: 19px;
@@ -225,9 +235,9 @@
     padding: $pd 0;
   }
 
-  .cus_wrapper1{
-    img{
-      margin-top:20px;
+  .cus_wrapper1 {
+    img {
+      margin-top: 20px;
     }
   }
 
@@ -238,11 +248,12 @@
     padding: $pd 0;
   }
 
-  .project_wrapper1{
-    h4{
+  .project_wrapper1 {
+    h4 {
       font-size: $title;
     }
-    button{
+
+    button {
       padding: 6px 30px;
     }
   }
@@ -255,14 +266,14 @@
   }
 
 
-  .blog_wrapper1{
+  .blog_wrapper1 {
     h4 {
       font-size: $title;
     }
   }
 
-  .blog_wrapper3{
-    button{
+  .blog_wrapper3 {
+    button {
       padding: 6px 25px;
     }
   }
@@ -273,14 +284,17 @@
 
   .newsletter_wrapper {
     text-align: center;
+
     p {
       margin-bottom: 20px;
       font-size: 16px;
     }
-    button{
+
+    button {
       margin-top: 20px;
     }
-    ::placeholder{
+
+    ::placeholder {
       text-align: center;
     }
   }
@@ -402,11 +416,12 @@
   }
 
   .about_wrapper1 {
-    p{
-      &:last-of-type{
+    p {
+      &:last-of-type {
         text-align: left !important;
       }
     }
+
     h4 {
       font-size: $title;
     }
@@ -415,6 +430,7 @@
   .about_wrapper2 {
     text-align: center;
     margin-top: 0;
+
     h4 {
       font-size: $title;
     }
@@ -451,6 +467,7 @@
   .team_wrapper2 {
     text-align: center;
     margin-top: 25px;
+
     h5 {
       margin-bottom: 0;
       font-size: 19px;
@@ -481,9 +498,9 @@
     padding: $pd 0;
   }
 
-  .cus_wrapper1{
-    img{
-      margin-top:20px;
+  .cus_wrapper1 {
+    img {
+      margin-top: 20px;
     }
   }
 
@@ -494,8 +511,8 @@
     padding: $pd 0;
   }
 
-  .project_wrapper1{
-    h4{
+  .project_wrapper1 {
+    h4 {
       font-size: $title;
     }
 
@@ -509,14 +526,14 @@
   }
 
 
-  .blog_wrapper1{
+  .blog_wrapper1 {
     h4 {
       font-size: $title;
     }
   }
 
-  .blog_wrapper3{
-    button{
+  .blog_wrapper3 {
+    button {
       padding: 6px 30px;
     }
   }
@@ -651,6 +668,7 @@
 
   .about_wrapper2 {
     margin-top: 0;
+
     h4 {
       font-size: $title;
     }
@@ -717,8 +735,8 @@
     padding: $pd 0;
   }
 
-  .project_wrapper1{
-    h4{
+  .project_wrapper1 {
+    h4 {
       font-size: $title;
     }
 
@@ -732,15 +750,15 @@
   }
 
 
-  .blog_wrapper1{
+  .blog_wrapper1 {
     h4 {
       font-size: $title;
     }
 
   }
 
-  .blog_wrapper3{
-    button{
+  .blog_wrapper3 {
+    button {
       padding: 6px 30px;
     }
   }
@@ -801,11 +819,11 @@
 
   }
 
-  .py1{
+  .py1 {
     padding: 40px 20px;
   }
 
-  .py2{
+  .py2 {
     padding: 19px 20px;
   }
   //<!--team end-->
