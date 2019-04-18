@@ -1,537 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <meta name="Author" content="Rifat Hossain"/>
-    <meta name="email" content="admin@rhossain.me"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Author" content="Rifat Hossain" />
+    <meta name="email" content="admin@rhossain.me" />
     <title>Bondi Bootstrap</title>
     <!--fontawesome-->
-    <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-            crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <!--fonts-->
-    <link
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-            rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
     <!--stylesheet-->
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
 </head>
 
 <body>
-<!--header start-->
-<header id="header">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <!--logo-->
-            <a class="navbar-brand" href="#"
-            ><img src="images/logo.png" alt="Logo"/></a>
-            <!--phone menu-->
-            <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!--header start-->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <!--logo-->
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" /></a>
+                <!--phone menu-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!--menu items-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" onclick="$('.banner').animatescroll();" href="#">Home</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link" onclick="$('#good').animatescroll({padding:-50});" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" onclick="$('.make').animatescroll({padding:-50});" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" onclick="$('.about').animatescroll({padding:-50});" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" onclick="$('footer').animatescroll();" href="#">Contact</a></li>
-                    <li class="nav-item cusmt">|</li>
-                    <li class="nav-item">
-                        <!--search icon-->
-                        <div class="dropdown">
-                            <button class="btn btn2 dropdown-toggle" type="button" id="dropdownMenuButton"
+                <!--menu items-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" onclick="$('.banner').animatescroll();"
+                                href="#">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="$('#good').animatescroll({padding:-50});" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="$('.make').animatescroll({padding:-50});"
+                                href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" onclick="$('.about').animatescroll({padding:-50});"
+                                href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" onclick="$('footer').animatescroll();"
+                                href="#">Contact</a></li>
+                        <li class="nav-item cusmt">|</li>
+                        <li class="nav-item">
+                            <!--search icon-->
+                            <div class="dropdown">
+                                <button class="btn btn2 dropdown-toggle" type="button" id="dropdownMenuButton"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search"></i>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <input type="text" placeholder="Search">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <input type="text" placeholder="Search">
+                                </div>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="cusbtn">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--header end-->
+
+    <!--banner start-->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--wrapper class-->
+                    <div class="banner_wrapper text-center">
+                        <h1>Taste the Creativity</h1>
+                        <p>We make awesome graphic and web design</p>
+                        <button type="button">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--banner end-->
+
+    <!--good start-->
+    <section id="good" class="good">
+        <div class="container">
+            <!--row1-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="good_wrapper1 text-center">
+                        <img src="images/logo2.png" class="img-fluid" alt="Logo2" />
+                        <h4>We are Good at</h4>
+                        <p>SOME OF THEASE STUFF UNDER</p>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <!--row2-->
+            <div class="row">
+                <!-- one -->
+                <div class="col-md-4 text-center">
+                    <div class="good_wrapper2">
+                        <div class="one"></div>
+                        <div class="good_wrapper2-1">
+                            <img src="images/pencil.png" class="img-fluid" alt="Pencil" />
+                            <h5>GRAPHIC DESIGN</h5>
+                            <p>
+                                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                                justo, lacinia eget consectetur sed, convallis at tellus.
+                            </p>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="cusbtn">Login</button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
-<!--header end-->
-
-<!--banner start-->
-<section class="banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <!--wrapper class-->
-                <div class="banner_wrapper text-center">
-                    <h1>Taste the Creativity</h1>
-                    <p>We make awesome graphic and web design</p>
-                    <button type="button">Get Started</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--banner end-->
-
-<!--good start-->
-<section id="good" class="good">
-    <div class="container">
-        <!--row1-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="good_wrapper1 text-center">
-                    <img src="images/logo2.png" class="img-fluid" alt="Logo2"/>
-                    <h4>We are Good at</h4>
-                    <p>SOME OF THEASE STUFF UNDER</p>
-                    <hr/>
-                </div>
-            </div>
-        </div>
-        <!--row2-->
-        <div class="row">
-            <!-- one -->
-            <div class="col-md-4 text-center">
-                <div class="good_wrapper2">
-                    <div class="one"></div>
-                    <div class="good_wrapper2-1">
-                        <img src="images/pencil.png" class="img-fluid" alt="Pencil"/>
-                        <h5>GRAPHIC DESIGN</h5>
-                        <p>
-                            Pellentesque in ipsum id orci porta dapibus. Vivamus magna
-                            justo, lacinia eget consectetur sed, convallis at tellus.
-                        </p>
                     </div>
                 </div>
-            </div>
-            <!-- two -->
-            <div class="col-md-4 text-center">
-                <div class="good_wrapper2">
-                    <div class="two"></div>
-                    <div class="good_wrapper2-1">
-                        <img src="images/monitor.png" class="img-fluid" alt="Pencil"/>
-                        <h5>WEB DESIGN</h5>
-                        <p>
-                            Pellentesque in ipsum id orci porta dapibus. Vivamus magna
-                            justo, lacinia eget consectetur sed, convallis at tellus.
-                        </p>
+                <!-- two -->
+                <div class="col-md-4 text-center">
+                    <div class="good_wrapper2">
+                        <div class="two"></div>
+                        <div class="good_wrapper2-1">
+                            <img src="images/monitor.png" class="img-fluid" alt="Pencil" />
+                            <h5>WEB DESIGN</h5>
+                            <p>
+                                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                                justo, lacinia eget consectetur sed, convallis at tellus.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- three -->
-            <div class="col-md-4 text-center">
-                <div class="good_wrapper2">
-                    <div class="three"></div>
-                    <div class="good_wrapper2-1">
-                        <img src="images/plug.png" class="img-fluid" alt="Pencil"/>
-                        <h5>APP DESIGN</h5>
-                        <p>
-                            Pellentesque in ipsum id orci porta dapibus. Vivamus magna
-                            justo, lacinia eget consectetur sed, convallis at tellus.
-                        </p>
+                <!-- three -->
+                <div class="col-md-4 text-center">
+                    <div class="good_wrapper2">
+                        <div class="three"></div>
+                        <div class="good_wrapper2-1">
+                            <img src="images/plug.png" class="img-fluid" alt="Pencil" />
+                            <h5>APP DESIGN</h5>
+                            <p>
+                                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                                justo, lacinia eget consectetur sed, convallis at tellus.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--good end-->
+    </section>
+    <!--good end-->
 
-<!--make start-->
-<section class="make">
-    <div class="container">
-        <!-- row1 -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="make_wrapper1 text-center">
-                    <img src="images/logo2.png" class="img-fluid" alt="Logo2"/>
-                    <h4>We Make This</h4>
-                    <p>PREPARE TO BE AMAZED</p>
-                    <hr/>
-                    <ul class=" list-inline">
-                        <li class=" list-inline-item"><a href="#" class=" decor">All</a></li>
-                        <li class=" list-inline-item"><a href="#">Design</a></li>
-                        <li class=" list-inline-item"><a href="#">Code</a></li>
-                        <li class=" list-inline-item"><a href="#">Photography</a></li>
-                        <li class=" list-inline-item"><a href="#">Apps</a></li>
-                    </ul>
+    <!--make start-->
+    <section class="make">
+        <div class="container">
+            <!-- row1 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="make_wrapper1 text-center">
+                        <img src="images/logo2.png" class="img-fluid" alt="Logo2" />
+                        <h4>We Make This</h4>
+                        <p>PREPARE TO BE AMAZED</p>
+                        <hr />
+                        <ul class=" list-inline">
+                            <li class=" list-inline-item"><a data-filter="all" href="#!" class="decor">All</a></li>
+                            <li class=" list-inline-item"><a data-filter=".category-a" href="#!">Design</a></li>
+                            <li class=" list-inline-item"><a data-filter=".category-b" href="#!">Code</a></li>
+                            <li class=" list-inline-item"><a data-filter=".category-c" href="#!">Photography</a></li>
+                            <li class=" list-inline-item"><a data-filter=".category-d" href="#!">Apps</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- row2 -->
+            <div class="row mixContainer">
+                <div class="col-md-3 mt-5 mix category-a category-c">
+                    <div class="make_wrapper2  text-center" >
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix category-d mt-5">
+                    <div class="make_wrapper2 text-center">
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix category-b category-c mt-5">
+                    <div class="make_wrapper2  text-center">
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix category-d category-a mt-5">
+                    <div class="make_wrapper2  text-center">
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5 mix category-a">
+                    <div class="make_wrapper2  text-center">
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5 mix category-c">
+                    <div class="make_wrapper2  text-center">
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5 mix category-c category-a">
+                    <div class="make_wrapper2  text-center">
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5 mix category-b">
+                    <div class="make_wrapper2 text-center">
+                        <h5>Awesome Work</h5>
+                        <p>/Details</p>
+                    </div>
+                </div>
+            </div>
+            <!--row3-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="make_wrapper3 text-center">
+                        <button type="button" class="text-uppercase">i want more</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- row2 -->
-        <div class="row">
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-5">
-                <div class="make_wrapper2 text-center">
-                    <h5>Awesome Work</h5>
-                    <p>/Details</p>
-                </div>
-            </div>
-        </div>
-        <!--row3-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="make_wrapper3 text-center">
-                    <button type="button" class="text-uppercase">i want more</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--make end-->
+    </section>
+    <!--make end-->
 
-<!--about start-->
-<section class="about">
-    <div class="container">
-        <!--row1-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="about_wrapper1 text-center">
-                    <img src="images/logo2.png" class="img-fluid" alt="Logo2"/>
-                    <h4>Some Stuff About Us</h4>
-                    <p>THE GREAT TEAM</p>
-                    <hr/>
-                    <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget
-                        tincidunt nibh
-                        <br> pulvinar a.
-                        Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec <br> sollicitudin
-                        molestie
-                        malesuada.</p>
+    <!--about start-->
+    <section class="about">
+        <div class="container">
+            <!--row1-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_wrapper1 text-center">
+                        <img src="images/logo2.png" class="img-fluid" alt="Logo2" />
+                        <h4>Some Stuff About Us</h4>
+                        <p>THE GREAT TEAM</p>
+                        <hr />
+                        <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget
+                            tincidunt nibh
+                            <br> pulvinar a.
+                            Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec <br>
+                            sollicitudin
+                            molestie
+                            malesuada.</p>
+                    </div>
+                </div>
+            </div>
+            <!--row2-->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="about_wrapper2">
+                        <h4>Retina Design</h4>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet
+                            elit, eget tincidunt nibh pulvinar a. </p>
+                        <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh
+                            pulvinar
+                            a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
+                            molestie malesuada.</p>
+                        <button>OREDER ME ONE</button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="about_wrapper3">
+                        <img src="images/mackbok.png" class="img-fluid" alt=macbook"">
+                    </div>
                 </div>
             </div>
         </div>
-        <!--row2-->
-        <div class="row mt-5">
-            <div class="col-md-4">
-                <div class="about_wrapper2">
-                    <h4>Retina Design</h4>
-                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet
-                        elit, eget tincidunt nibh pulvinar a. </p>
-                    <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
-                        a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
-                        molestie malesuada.</p>
-                    <button>OREDER ME ONE</button>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="about_wrapper3">
-                    <img src="images/mackbok.png" class="img-fluid" alt=macbook"">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--about end-->
+    </section>
+    <!--about end-->
 
-<!--team start-->
-<section class="team">
-    <div class="container">
-        <!--row1-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="team_wrapper1 text-center">
-                    <h4>Meet the Team</h4>
-                    <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
-                        a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
-                        molestie malesuada.</p>
+    <!--team start-->
+    <section class="team">
+        <div class="container">
+            <!--row1-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team_wrapper1 text-center">
+                        <h4>Meet the Team</h4>
+                        <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh
+                            pulvinar
+                            a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
+                            molestie malesuada.</p>
+                    </div>
+                </div>
+            </div>
+            <!--row2-->
+            <div class="row">
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="team_wrapper2">
+                        <img src="images/luke.png" class="img-fluid" alt="luke">
+                        <h5>Luke Skywalker</h5>
+                        <p class="py1">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="team_wrapper2">
+                        <img src="images/obi" class="img-fluid" alt="luke">
+                        <h5>Obi-Wan Kenobi</h5>
+                        <p class="py1">“Your clones are very impressive. You must be very proud”</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="team_wrapper2">
+                        <img src="images/leia.jpeg" class="img-fluid" alt="luke">
+                        <h5>Princess Leia</h5>
+                        <p class="py2"> “I don't know who you are or where you came from, but from now on you'll do as I
+                            tell you,
+                            okay?” </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="team_wrapper2">
+                        <img src="images/yoda.jpeg" class="img-fluid" alt="luke">
+                        <h5>Yoda</h5>
+                        <p class="py2">“Do not assume anything Obi-Wan. Clear your mind must be if you are to discover
+                            the
+                            real villains
+                            behind this plot.”
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <!--row2-->
-        <div class="row">
-            <div class="col-md-3 col-sm-6 ">
-                <div class="team_wrapper2">
-                    <img src="images/luke.png" class="img-fluid" alt="luke">
-                    <h5>Luke Skywalker</h5>
-                    <p class="py1">“I don't understand how we got by those troops. I thought we were dead.“</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 ">
-                <div class="team_wrapper2">
-                    <img src="images/obi" class="img-fluid" alt="luke">
-                    <h5>Obi-Wan Kenobi</h5>
-                    <p class="py1">“Your clones are very impressive. You must be very proud”</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 ">
-                <div class="team_wrapper2">
-                    <img src="images/leia.jpeg" class="img-fluid" alt="luke">
-                    <h5>Princess Leia</h5>
-                    <p class="py2"> “I don't know who you are or where you came from, but from now on you'll do as I
-                        tell you,
-                        okay?” </p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 ">
-                <div class="team_wrapper2">
-                    <img src="images/yoda.jpeg" class="img-fluid" alt="luke">
-                    <h5>Yoda</h5>
-                    <p class="py2">“Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the
-                        real villains
-                        behind this plot.”
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--team end-->
+    </section>
+    <!--team end-->
 
-<!--customer start-->
-<section class="customer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-sm-4 col-6">
-                <div class="cus_wrapper1 text-center">
-                    <img src="images/c1.png" class="img-fluid" alt="customer">
+    <!--customer start-->
+    <section class="customer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="cus_wrapper1 text-center">
+                        <img src="images/c1.png" class="img-fluid" alt="customer">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-sm-4 col-6">
-                <div class="cus_wrapper1 text-center">
-                    <img src="images/c2.png" class="img-fluid" alt="customer">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="cus_wrapper1 text-center">
+                        <img src="images/c2.png" class="img-fluid" alt="customer">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-sm-4 col-6">
-                <div class="cus_wrapper1 text-center">
-                    <img src="images/c3.png" class="img-fluid" alt="customer">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="cus_wrapper1 text-center">
+                        <img src="images/c3.png" class="img-fluid" alt="customer">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-sm-4 col-6">
-                <div class="cus_wrapper1 text-center">
-                    <img src="images/c4.png" class="img-fluid" alt="customer">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="cus_wrapper1 text-center">
+                        <img src="images/c4.png" class="img-fluid" alt="customer">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-sm-4 col-6">
-                <div class="cus_wrapper1 text-center">
-                    <img src="images/c1.png" class="img-fluid" alt="customer">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="cus_wrapper1 text-center">
+                        <img src="images/c1.png" class="img-fluid" alt="customer">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-sm-4 col-6">
-                <div class="cus_wrapper1 text-center">
-                    <img src="images/c2.png" class="img-fluid" alt="customer">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <div class="cus_wrapper1 text-center">
+                        <img src="images/c2.png" class="img-fluid" alt="customer">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--customer end-->
+    </section>
+    <!--customer end-->
 
-<!--project start-->
-<section class="project">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="project_wrapper1 text-center">
-                    <h4>Start Your Project Now</h4>
-                    <p>Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
-                    <button type="button">START PROJECT</button>
+    <!--project start-->
+    <section class="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="project_wrapper1 text-center">
+                        <h4>Start Your Project Now</h4>
+                        <p>Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+                        <button type="button">START PROJECT</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--project end-->
+    </section>
+    <!--project end-->
 
-<!--blog start-->
-<section class="blog">
-    <div class="container">
-        <!--row1-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="blog_wrapper1 text-center">
-                    <img src="images/logo2.png" class="img-fluid" alt="Logo2"/>
-                    <h4>Read Our Blog</h4>
-                    <p>NEW STORIES</p>
-                    <hr/>
+    <!--blog start-->
+    <section class="blog">
+        <div class="container">
+            <!--row1-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="blog_wrapper1 text-center">
+                        <img src="images/logo2.png" class="img-fluid" alt="Logo2" />
+                        <h4>Read Our Blog</h4>
+                        <p>NEW STORIES</p>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <!--row2-->
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="blog_wrapper2">
+                        <img src="images/blog_img.png" class="img-fluid" alt="blogimg">
+                        <p>January 17,2017</p>
+                        <h6>Some Awesome Blog Title Here</h6>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="blog_wrapper2">
+                        <img src="images/blog_img.png" class="img-fluid" alt="blogimg">
+                        <p>January 17,2017</p>
+                        <h6>Some Awesome Blog Title Here</h6>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="blog_wrapper2">
+                        <img src="images/blog_img.png" class="img-fluid" alt="blogimg">
+                        <p>January 17,2017</p>
+                        <h6>Some Awesome Blog Title Here</h6>
+                    </div>
+                </div>
+            </div>
+            <!--row3-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="blog_wrapper3 text-center">
+                        <button type="button">MORE STORIES</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <!--row2-->
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <div class="blog_wrapper2">
-                    <img src="images/blog_img.png" class="img-fluid" alt="blogimg">
-                    <p>January 17,2017</p>
-                    <h6>Some Awesome Blog Title Here</h6>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="blog_wrapper2">
-                    <img src="images/blog_img.png" class="img-fluid" alt="blogimg">
-                    <p>January 17,2017</p>
-                    <h6>Some Awesome Blog Title Here</h6>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="blog_wrapper2">
-                    <img src="images/blog_img.png" class="img-fluid" alt="blogimg">
-                    <p>January 17,2017</p>
-                    <h6>Some Awesome Blog Title Here</h6>
-                </div>
-            </div>
-        </div>
-        <!--row3-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="blog_wrapper3 text-center">
-                    <button type="button">MORE STORIES</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--blog end-->
+    </section>
+    <!--blog end-->
 
-<!--newsletter start-->
-<section class="newletter">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-5 offset-md-1">
-                <div class="newsletter_wrapper">
-                    <p>Subscribe to our Newsletter:</p>
+    <!--newsletter start-->
+    <section class="newletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-5 offset-md-1">
+                    <div class="newsletter_wrapper">
+                        <p>Subscribe to our Newsletter:</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-5 col-sm-5">
-                <div class="newsletter_wrapper">
-                    <input type="email" placeholder="Enter email Address">
+                <div class="col-md-5 col-sm-5">
+                    <div class="newsletter_wrapper">
+                        <input type="email" placeholder="Enter email Address">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2 col-sm-2">
-                <div class="newsletter_wrapper">
-                    <button type="button">Subscribe</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--newsletter end-->
-
-<!--footer start-->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 mt-4">
-                <div class="footer_wrapper1">
-                    <img src="images/logo.png" class=" img-fluid" alt="logo">
-                    <p class="mt-4">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget
-                        consectetur sed, convallis at tellus.</p>
-                    <p class="mt-5">Created by <span class="aq">Graphberry</span>,Belgrade,Serbia</p>
-                    <p> © 2017 - <span>Bondi.Inc</span></p>
-                </div>
-            </div>
-            <div class="col-md-2 col-sm-6 mt-4">
-                <div class="footer_wrapper2">
-                    <ul class="list-unstyled">
-                        <li class="list-item"><a href="#">Links</a></li>
-                        <li class="list-item"><a href="#">Home</a></li>
-                        <li class="list-item"><a href="#">Our Services</a></li>
-                        <li class="list-item"><a href="#">Portfolio</a></li>
-                        <li class="list-item"><a href="#">Testimonials</a></li>
-                        <li class="list-item"><a href="#">Support</a></li>
-                        <li class="list-item"><a href="#">Terms and Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-1 col-sm-6 mt-4">
-                <div class="footer_wrapper3">
-                    <ul class="list-unstyled">
-                        <li class="list-item"><a href="#">About Us</a></li>
-                        <li class="list-item"><a href="#">Sign In</a></li>
-                        <li class="list-item"><a href="#">Register</a></li>
-                        <li class="list-item"><a href="#">About Us</a></li>
-                        <li class="list-item"><a href="#">Blog</a></li>
-                        <li class="list-item"><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mt-4 offset-md-1">
-                <div class="footer_wrapper4">
-                    <p>Contact Us</p>
-                    <p>Get in touch with us via mail phone.We are waiting for
-                        your call or message</p>
-                    <button>graphberry@gmail.com</button>
-                    <ul class="list-inline">
-                        <li class="list-inline-item fb"><i class="fab fa-facebook-f"></i></li>
-                        <li class="list-inline-item tw"><i class="fab fa-twitter"></i></li>
-                        <li class="list-inline-item gp"><i class="fab fa-google-plus-g"></i></li>
-                        <li class="list-inline-item db"><i class="fab fa-dribbble"></i></li>
-                    </ul>
+                <div class="col-md-2 col-sm-2">
+                    <div class="newsletter_wrapper">
+                        <button type="button">Subscribe</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<!--footer end-->
+    </section>
+    <!--newsletter end-->
 
-<!--Jquery-->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/plugins/animatescroll.js-master/animatescroll.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+    <!--footer start-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mt-4">
+                    <div class="footer_wrapper1">
+                        <img src="images/logo.png" class=" img-fluid" alt="logo">
+                        <p class="mt-4">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget
+                            consectetur sed, convallis at tellus.</p>
+                        <p class="mt-5">Created by <span class="aq">Graphberry</span>,Belgrade,Serbia</p>
+                        <p> © 2017 - <span>Bondi.Inc</span></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 mt-4">
+                    <div class="footer_wrapper2">
+                        <ul class="list-unstyled">
+                            <li class="list-item"><a href="#">Links</a></li>
+                            <li class="list-item"><a href="#">Home</a></li>
+                            <li class="list-item"><a href="#">Our Services</a></li>
+                            <li class="list-item"><a href="#">Portfolio</a></li>
+                            <li class="list-item"><a href="#">Testimonials</a></li>
+                            <li class="list-item"><a href="#">Support</a></li>
+                            <li class="list-item"><a href="#">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-6 mt-4">
+                    <div class="footer_wrapper3">
+                        <ul class="list-unstyled">
+                            <li class="list-item"><a href="#">About Us</a></li>
+                            <li class="list-item"><a href="#">Sign In</a></li>
+                            <li class="list-item"><a href="#">Register</a></li>
+                            <li class="list-item"><a href="#">About Us</a></li>
+                            <li class="list-item"><a href="#">Blog</a></li>
+                            <li class="list-item"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mt-4 offset-md-1">
+                    <div class="footer_wrapper4">
+                        <p>Contact Us</p>
+                        <p>Get in touch with us via mail phone.We are waiting for
+                            your call or message</p>
+                        <button>graphberry@gmail.com</button>
+                        <ul class="list-inline">
+                            <li class="list-inline-item fb"><i class="fab fa-facebook-f"></i></li>
+                            <li class="list-inline-item tw"><i class="fab fa-twitter"></i></li>
+                            <li class="list-inline-item gp"><i class="fab fa-google-plus-g"></i></li>
+                            <li class="list-inline-item db"><i class="fab fa-dribbble"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+
+    <!--Jquery-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/plugins/animatescroll.js-master/animatescroll.min.js"></script>
+    <script src="js/plugins/patrickkunka-mixitup-61dac05/dist/mixitup.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        var mixer = mixitup('.mixContainer', {
+            "animation": {
+                "duration": 250,
+                "nudge": true,
+                "reverseOut": false,
+                "effects": "translateX(20%) rotateX(90deg)"
+            }
+        });
+
+
+    </script>
+
 </body>
+
 </html>
