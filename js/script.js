@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+    // mixitup menu active color
+    $('.make_wrapper1 ul li:first-child').addClass('mhv');
+
+    $('.make_wrapper1 ul li').click(function () {
+        $('ul li').removeClass('mhv');
+        $(this).addClass("mhv");
+    });
+
     //navbar menu Hover color
     $(".nav-link").hover(function () {
         $(this).toggleClass('aq');
@@ -18,13 +26,6 @@ $(document).ready(function () {
         console.log(this);
     });
 
-
-    // make menu
-
-    $(".make_wrapper1 ul li").hover(function () {
-        $(this).toggleClass('mhv');
-        console.log(this);
-    });
 
     // make wrapper 2
 
