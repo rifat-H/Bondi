@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta name="Author" content="Rifat Hossain"/>
     <meta name="email" content="admin@rhossain.me"/>
-    <title>Bondi psd@html</title>
+    <title>Bondi Bootstrap</title>
     <!--fontawesome-->
     <link
             rel="stylesheet"
@@ -27,7 +27,7 @@
 
 <body>
 <!--header start-->
-<header>
+<header id="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <!--logo-->
@@ -49,15 +49,15 @@
             <!--menu items-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="$('.banner').animatescroll();" href="#">Home</a></li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" onclick="$('#good').animatescroll({padding:-50});" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" onclick="$('.make').animatescroll({padding:-50});" href="#">Portfolio</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="$('.about').animatescroll({padding:-50});" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="$('footer').animatescroll();" href="#">Contact</a></li>
                     <li class="nav-item cusmt">|</li>
                     <li class="nav-item">
                         <!--search icon-->
@@ -99,7 +99,7 @@
 <!--banner end-->
 
 <!--good start-->
-<section class="good">
+<section id="good" class="good">
     <div class="container">
         <!--row1-->
         <div class="row">
@@ -530,6 +530,7 @@
 
 <!--Jquery-->
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/plugins/animatescroll.js-master/animatescroll.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
