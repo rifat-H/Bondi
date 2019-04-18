@@ -13,12 +13,14 @@ $title2: #a8b9c0;
 //sizes
 $title: 35px;
 $pd: 70px;
-$pdb: (70-16) + px;
+$pdb: (70-16)+px;
 
 //styles
 //global start
 
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -75,14 +77,9 @@ header {
         margin: 0 11px;
         color: $title2;
 
-        
-
         a {
           color: $title2 !important;
 
-        }
-
-        
         }
       }
     }
@@ -231,7 +228,7 @@ header {
       padding: 10px 20px;
       border-radius: 10px;
 
-      
+
 
       a {
         font-size: 15px;
@@ -440,8 +437,7 @@ header {
 .blog_wrapper2 {
   margin-top: 35px;
 
-  img {
-  }
+  img {}
 
   p {
     margin-top: 15px;
@@ -517,8 +513,7 @@ footer {
 }
 
 .footer_wrapper1 {
-  img {
-  }
+  img {}
 
   p {
     font-size: 13px;
