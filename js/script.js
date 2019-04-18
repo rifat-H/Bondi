@@ -3,7 +3,7 @@ $(document).ready(function () {
     // mixitup menu active color
     $('.make_wrapper1 ul li:first-child').addClass('mhv');
 
-    $('.make_wrapper1 ul li').click(function () {
+    $('.make_wrapper1 ul li').click(function () { 
         $('ul li').removeClass('mhv');
         $(this).addClass("mhv");
     });
